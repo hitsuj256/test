@@ -1,5 +1,6 @@
 <head>
-        <meta charset="UTF-8">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="aws.css">
         <title>確認くんもどき</title>
 </head>
 <body>

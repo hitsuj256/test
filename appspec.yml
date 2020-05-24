@@ -3,3 +3,5 @@ os: linux
 files:
   - source: uraddr.php
     destination: /var/www/html/
+  - source: aws.css
+    destination: /var/www/html/
