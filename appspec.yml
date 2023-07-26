@@ -1,7 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: uraddr.php
-    destination: /var/www/html/
-  - source: test.css
+  - source: kakunin.php
     destination: /var/www/html/
