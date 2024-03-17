@@ -1,0 +1,25 @@
+<head>
+    <title>kakunin</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            vertical-align: top;
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    Your IP address and port number;<br>
+    {{ uraddr }} : {{urport}}<br>
+    <br><br>
+    HTTP Request Header;
+    <table>
+        {% for k,v in h.items() %}
+        <tr>
+            <td style="white-space:nowrap;">{{k}}</td><td>{{v}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
